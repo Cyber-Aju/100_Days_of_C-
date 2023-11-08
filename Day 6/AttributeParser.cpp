@@ -46,7 +46,6 @@ using namespace std;
 
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
     int n, q;
     string curr="", attr_name;
     map<string , string> m;
@@ -58,7 +57,7 @@ int main() {
         string line, tag, extract;
         getline(cin, line);
         stringstream ss(line);
-        
+        // Parse HRML
         while(getline (ss,extract,' '))
         {
             if(extract[0]=='<')
@@ -92,6 +91,7 @@ int main() {
                     }
                 }
             }
+            //Map of attributes
             else if(extract[0]=='"') 
             {
                 size_t pos=extract.find_last_of('"');
@@ -108,7 +108,7 @@ int main() {
             }
         }
     }
-    
+    //Process queries
     string query;
     for(int i=0;i<q;i++)
     {
