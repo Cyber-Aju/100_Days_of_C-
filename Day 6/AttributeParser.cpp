@@ -54,12 +54,14 @@ int main() {
     
     for(int i=0;i<n;i++)
     {
+        //process HRML
         string line, tag, extract;
         getline(cin, line);
+        //split into tokens
         stringstream ss(line);
-        // Parse HRML
         while(getline (ss,extract,' '))
         {
+            //check start tag
             if(extract[0]=='<')
             {
                 if(extract[1]!='/')
@@ -69,6 +71,7 @@ int main() {
                     {
                         tag.pop_back();
                     }
+                    //update current tag
                     if(curr.size()>0)
                     {
                         curr+="."+tag;
