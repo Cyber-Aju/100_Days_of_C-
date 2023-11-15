@@ -1,5 +1,5 @@
-#butterflyPrint:
-
+butterflyPrint:
+------------------------------------------
 Input:5
 Output:
 ```bash
@@ -15,8 +15,8 @@ Output:
 *                 *
 ```
 
-#hollowDiamond:
-
+hollowDiamond:
+-------------------------------------------
 Input:5
 Output:
 ```bash
@@ -31,8 +31,8 @@ Output:
     *
 ```
 
-#swastika:
-
+swastika:
+-------------------------------------------
 Input:5
 Output:
 
