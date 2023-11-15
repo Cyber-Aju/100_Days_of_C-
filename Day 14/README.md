@@ -1,3 +1,35 @@
+#butterflyPrint:
+
+Input:5
+Output:
+```bash
+*                 * 
+* *             * * 
+* * *         * * * 
+* * * *     * * * * 
+* * * * * * * * * * 
+* * * * * * * * * * 
+* * * *     * * * * 
+* * *         * * * 
+* *             * * 
+*                 *
+```
+
+#hollowDiamond:
+
+Input:5
+Output:
+```bash
+    *
+   * *
+  *   *
+ *     *
+*       *
+ *     *
+  *   *
+   * *
+    *
+```
 
 #swastika:
 
