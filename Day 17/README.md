@@ -45,7 +45,7 @@ Output:
 
 reverseWordsUsingStack
 -----------------------
-Input: "Hi this is ajmal akram"
+Input: "Hi this is ajmal akram",
 Output: 
 ```bash
 iH siht si lamja marka
@@ -53,7 +53,7 @@ iH siht si lamja marka
 
 reverseStringUsingStack
 -------------------------
-Input: "Hi this is ajmal akram"
+Input: "Hi this is ajmal akram",
 Output: 
 ```bash
 Reversed string is : marka lamjA
