@@ -52,5 +52,3 @@
 
 #### Use Case:
 - This problem is relevant in situations where you need to determine the sign of a mathematical expression or the result of a series of multiplications, such as in mathematical modeling or algorithmic problem-solving.
-
-These complexities are approximate and may vary depending on specific optimizations or constraints. Understanding the logic and complexity of these algorithms is crucial for efficient problem-solving and algorithm design.
