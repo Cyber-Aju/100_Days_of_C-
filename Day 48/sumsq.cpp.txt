@@ -1,0 +1,14 @@
+#include <iostream>
+
+void sumOfSquares(int n) {
+    long long sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += (long long) i * i;
+    }
+    std::cout << sum << std::endl;
+}
+
+int main() {
+    sumOfSquares(5);
+    return 0;
+}

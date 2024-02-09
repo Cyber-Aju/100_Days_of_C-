@@ -1,0 +1,17 @@
+#include <iostream>
+
+int findMinXORValue(int A, int B) {
+    int minXOR = INT_MAX;
+    for (int X = 0; X <= std::max(A, B); X++) {
+        int currentXOR = (A ^ X) + (B ^ X);
+        minXOR = std::min(minXOR, currentXOR);
+    }
+    return minXOR;
+}
+
+int main() {
+    // Example usage
+    int result = findMinXORValue(5, 10); // You can replace 5 and 10 with any desired values
+    std::cout << "Minimum XOR value: " << result << std::endl;
+    return 0;
+}
